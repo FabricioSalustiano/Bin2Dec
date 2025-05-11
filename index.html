@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/computer.png">
+    <script src="script.js"></script>
+    <title>Bin2Dec - Conversor binário</title>
+</head>
+
+<body>
+    <nav>
+        <img width="70" height="70" src="assets/computer.png" alt="icone de computador">
+        <h1>Bin2Dec</h1>
+    </nav>
+    <main>
+        <h1>Converter binário para decimal</h1>
+
+        <div class="input-group">
+            <p>Insira um número binário:</p>
+            <input type="text" id="binary" class="input-binary" placeholder="Digite um número binário">
+            <button class="btn-convert" onclick="convertBinary()">
+                <img width="20" height="20" src="./assets/converter.png" alt="Botão converter">
+            </button>
+        </div>
+
+        <div class="output-group">
+            <p>Resultado decimal:</p>
+            <input type="text" id="resultDecimal" class="input-result" readonly>
+            <button class="btn-clear" onclick="clearFields()">
+                <img width="20" height="20" src="./assets/clear.png" alt="Vassoura">
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
