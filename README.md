@@ -15,3 +15,6 @@ O projeto permite que o usuário insira uma sequência de até **8 dígitos bin�
 ### 🎯 Objetivo
 
 Oferecer uma ferramenta prática para estudo e reforço do entendimento sobre **base binária**, promovendo também boas práticas de lógica e matemática aplicadas à programação.
+
+### Link de acesso
+https://fabriciosalustiano.github.io/Bin2Dec/
